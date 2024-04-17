@@ -37,7 +37,6 @@ class Bst{
 
 const bst = new Bst();
 
-
 bst.insert(10);
 bst.insert(5);
 bst.insert(15);
@@ -45,9 +44,5 @@ bst.insert(3);
 bst.insert(7);
 bst.insert(12);
 bst.insert(18);
-console.log(bst.search(15));   
-
-
-
-
+console.log(bst.search(15))
 console.log(bst.search(8)); 

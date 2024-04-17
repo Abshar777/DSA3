@@ -1,6 +1,7 @@
 ## DSA 3
 
 ### 1) tree 
+
 - this is hyraricial ds
 - that consist of nodes in the edege
 - ithu none liner annu arryeyum stackineyum que yinneyum okke vechu nokkumbolle karanm bakkiyullava ok linear annu
@@ -29,8 +30,22 @@
    <img src="https://scaler-topics-articles-md.s3.us-west-2.amazonaws.com/tree-data-structure-terminologies.webp" alt="Image Alt Text" width="300" height="300" style="object-fit:cover;">
 
 ### 2) binery tree
+
 - ithu ennu vecxhall oru nodinnu enthyakllum randu chiled node indayirkkkum
 - ee child nodesinne left chiled and right child ennannu villikee
   <br/>
   <br/>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJRH0bkcAhsNeoD-tjjcxr3XYG9irL3iOBEOS1C5-NBA&s" alt="Image Alt Text" width="300" height="300" style="object-fit:cover;">
+
+### 3) binery serachg tree (BST)
+
+- the value of each child node must will be smaller than parent node
+- oprations
+  - insertion
+  - serach
+  - DFS & BFS - to visit all in the tree
+  - deletion
+- usage
+  - seraching
+  - sorting
+  - lookup tables and priority queous
