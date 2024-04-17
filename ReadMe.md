@@ -33,4 +33,4 @@
 - ee child nodesinne left chiled and right child ennannu villikee
   <br/>
   <br/>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJRH0bkcAhsNeoD-tjjcxr3XYG9irL3iOBEOS1C5-NBA&s" alt="Image Alt Text" width="300" height="300" style="object-fit:cover;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJRH0bkcAhsNeoD-tjjcxr3XYG9irL3iOBEOS1C5-NBA&s" alt="Image Alt Text" width="300" height="300" style="object-fit:cover;">
