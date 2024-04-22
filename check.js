@@ -1,48 +1,30 @@
-class node{
-  constructor(val){
-    this.value=val;
-    this.left=null;
-    this.right=null
-  }
-}
-
-class Bst{
+class graph{
   constructor(){
-    this.root=null
+    this.list={}
   }
-  insert(val){
-    const newNode=new node(val)
-    if(!this.root) this.root=newNode
-    else this.insertNode(this.root,newNode)
+  addVertex(vertex){
+    if(!this.list[vertx])this.list[vertx]=new Set()
   }
-  insertNode(node,newNode){
-    if(node.value<newNode.value){
-      if(!node.right) node.right=newNode
-      else this.insertNode(node.right,newNode)
-    }else{
-      if(!node.left) node.left=newNode
-      else this.insertNode(node.left,newNode)
+  addEdge(v1,v2){
+     if(!this.list[v1]) this.addVertex(v1)
+     if(!this.list[v2]) this.addVertex(v2)
+    this.list[v1].add(v2)
+    this.list[v2].add(v1)
+  }
+  display(){
+    for(const key in list){
+      console.log(key)
     }
   }
-  search(val){
-   return this.searchNode(this.root,val)
+  deletedge(v1,v2){
+    this.list.delete(v1)
+    this.list.delete(v2)
   }
-  searchNode(node,val){
-    if(!node) return false
-    if(node.value<val) return this.searchNode(node.right,val)
-    else if(node.value>val) return this.searchNode(node.left,val)
-    else return true
+  deletVertex(v1){
+    if(!this.list.has(v1)) return
+    for(let adj of v1){
+      this.deletedge(v1,edj)
+    }
+    delete this.list[v1]
   }
 }
-
-const bst = new Bst();
-
-bst.insert(10);
-bst.insert(5);
-bst.insert(15);
-bst.insert(3);
-bst.insert(7);
-bst.insert(12);
-bst.insert(18);
-console.log(bst.search(15))
-console.log(bst.search(8)); 

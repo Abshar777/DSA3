@@ -49,3 +49,19 @@
   - seraching
   - sorting
   - lookup tables and priority queous
+
+### 4) graph 
+- ithu ennu vech oru set of vertces annu 
+- vertces ennu vecha circle annu
+- edges ennu vecha lines annu
+- graph has two types are in there
+  - directed
+  - undirected
+- directed
+  - graphinte edgesinnnu direction indavvum
+  - ithu akhee otta directionillu mathreee travis cheyyooo
+- undirected
+   - ithinnnu prethikhichu ditrection onnum illaa
+- graph usage
+  -  google maps
+  -  Social media sites
